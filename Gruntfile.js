@@ -25,7 +25,7 @@ module.exports = function (grunt) {
          */
         copy: {
             staticFile: {
-                expand: true,
+                expand: true,//是否使用如dot，ext的配置
                 dot: true,
                 ext:'.html',//替换扩展名
                 cwd: '<%= config.app %>',//folder
